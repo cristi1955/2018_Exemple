@@ -1,0 +1,2 @@
+define(["require","exports","external/bloodhound","modules/clean/contacts/demo_contacts_min"],function(e,n,o,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.demoBloodhound=new o({datumTokenizer:function(e){return[e.name,e.email,e.fname,e.lname].concat(e.name_tokens)},queryTokenizer:function(e){return[e]},local:[]}),n.demoBloodhound.add(t.demoContacts)});
+//# sourceMappingURL=demo_contacts.min.js-vflLleRfT.map

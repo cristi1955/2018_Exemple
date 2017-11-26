@@ -1,0 +1,2 @@
+define(["require","exports","modules/clean/ajax","modules/core/browser","modules/clean/previews/util"],function(e,t,r,i,o){"use strict";function n(e){var t=o.get_extension(e);return!!t&&"docx"===t&&!i.is_mobile_or_tablet()&&e.bytes<20971520}function s(e,t){r.WebRequest({url:"/paper/sign_import_docx_request_data",data:{path:e.file_id,sharedLink:t},success:function(e){i.redirect(e)}})}Object.defineProperty(t,"__esModule",{value:!0}),t.shouldShowOpenWithPaper=n,t.createPaperAccountAndRedirect=s});
+//# sourceMappingURL=utils.min.js-vflFOBmOh.map

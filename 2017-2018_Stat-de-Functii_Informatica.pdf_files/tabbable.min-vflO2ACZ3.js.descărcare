@@ -1,0 +1,2 @@
+(function(){define(["jquery"],function(n){return(function(){function i(){i.initialized||this.listen()}return i.initialized=!1,i.prototype.listen=function(){return i.initialized=!0,n(document).on("keydown",(function(i){return function(i){if(9===i.keyCode)return n(document.body).addClass("tabbing")}})(this)),n(document).on("mousedown",(function(i){return function(i){return n(document.body).removeClass("tabbing")}})(this))},i.initialize_module=function(){return new i},i})()})}).call(this);
+//# sourceMappingURL=tabbable.min.js-vflUth0hB.map

@@ -1,0 +1,2 @@
+define(["require","exports","modules/clean/react/browse/models"],function(e,r,i){"use strict";function n(e,r){return!e&&!r||!!e&&!!r&&i.File.areEqual(e,r)}function t(e,r){return!e&&!r||!!e&&!!r&&e.id===r.id}function u(e,r){return!n(e.file,r.file)||!t(e.user,r.user)}Object.defineProperty(r,"__esModule",{value:!0}),r.isFileSame=n,r.isUserSame=t,r.isContextChanged=u});
+//# sourceMappingURL=helpers.min.js-vflJ3G6T_.map

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="TestAzureCloudService1" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="5" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="TestWebRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=bigstorage2k16;AccountKey=$(_bigstorage2k16.key_)" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="f4b8aefe-8c7d-4ef9-9ca2-2fe352f2b6be" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>

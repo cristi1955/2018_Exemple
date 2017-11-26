@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="ckExempluAzureCloudService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="5" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="ckWebRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=bigstorage2k16;AccountKey=$(_bigstorage2k16.key_)" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="7c12fd40-accc-41b2-8635-de620acb9105" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>

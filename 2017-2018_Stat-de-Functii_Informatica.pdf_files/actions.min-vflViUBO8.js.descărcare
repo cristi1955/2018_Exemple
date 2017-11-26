@@ -1,0 +1,2 @@
+define(["require","exports"],function(e,t){"use strict";function o(e){return{type:"APP_SET_STATE",hideComments:e.hideComments,hidePageChrome:e.hidePageChrome,isCommentsDemo:e.isCommentsDemo}}Object.defineProperty(t,"__esModule",{value:!0}),t.setState=o});
+//# sourceMappingURL=actions.min.js-vfl88BW4k.map

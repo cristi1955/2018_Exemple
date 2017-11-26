@@ -1,0 +1,2 @@
+define(["require","exports","modules/clean/ajax"],function(e,a,t){"use strict";function r(e,a,r){t.SilentBackgroundRequest({url:"/log/paper",data:{event_type:e,extra_params:JSON.stringify(a)},success:r,error:r})}Object.defineProperty(a,"__esModule",{value:!0}),a.PaperEventTypes={VIDEO_PLAY:"main_video_play",VIDEO_PERCENT_PLAYED:"main_video_percent_played",CTA_CLICK:"cta_click",CTA_SEEN:"cta_seen"},a.default=r});
+//# sourceMappingURL=paper_log.min.js-vflApCKRG.map
